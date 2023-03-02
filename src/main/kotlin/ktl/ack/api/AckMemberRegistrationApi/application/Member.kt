@@ -57,8 +57,6 @@ class Member {
     @Column(updatable = false)
     var dateCreated: Timestamp? = null
 
-    @CreationTimestamp
-    @Column(updatable = false)
-    var dateNew: Timestamp? = null
+
 
 }
